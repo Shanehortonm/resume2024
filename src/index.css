@@ -25,3 +25,7 @@
 .img_glow {
   box-shadow: 0 0 55px 10px rgba(249, 120, 103, 0.6);
 }
+
+.b_glow {
+  box-shadow: 0 0 15px 10px rgba(249, 120, 103, 0.6);
+}

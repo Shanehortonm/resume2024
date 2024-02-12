@@ -3,7 +3,10 @@ import Banner2 from "../imgs/2.jpg";
 
 export const About = () => {
   return (
-    <div className="m-auto max-w-[1600px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center">
+    <div
+      id="About"
+      className=" m-auto max-w-[1600px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
+    >
       <img
         data-aos="fade-down"
         src={Banner2}
