@@ -13,7 +13,7 @@ const Nav = () => {
   const content = (
     <>
       <div className=" cursor-pointer lg:hidden block absolute top-16 w-full left-0 right-0 main-bg transition-all ">
-        <ul className=" m-auto text-center text-xl p-20 max-w-[400px] flex flex-col justify-center ">
+        <ul className=" m-auto text-center text-[1.4rem] gap-5 p-20 max-w-[400px] flex flex-col justify-center ">
           <Link spy={true} smooth={true} to="Home">
             <li className="my-4 py-4 border-b main-bg hover:bg-orange-500 hover:rounded">
               Home
@@ -46,13 +46,15 @@ const Nav = () => {
 
   return (
     <nav className="main-bg">
-      <div className="h-10vh flex justify-between z-50 text-white lg:py-5 px-5 py-4 flex-1">
+      <div className="h-0vh flex justify-between z-50 text-white lg:py-5 px-5 py-4 flex-1">
         <div className="flex items-center flex-1">
-          <span className="text-[2.2rem] font-bold">Welcome</span>
+          <span className="text-[2.2rem] font-bold lg:text-[2.4rem] ">
+            Welcome
+          </span>
         </div>
         <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">
           <div className="flex-10">
-            <ul className="flex gap-8 mr-16 text-[18px]">
+            <ul className="flex gap-8 mr-16 text-[1.2rem] lg:text-[1.4rem]">
               <Link spy={true} smooth={true} to="Home">
                 <li className="hover:text-orange-500 transition border-b-2 border-orange-800 hover:border-orange-500 cursor-pointer">
                   Home

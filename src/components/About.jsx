@@ -24,13 +24,10 @@ export const About = () => {
         >
           About me
         </h1>
-        <p data-aos="fade-left" className="text-[1.1rem] leading-7">
-          Hey there! I'm Shane, and I'm all about crafting cool stuff with
-          React. Recent obtained Front-End Certifications for Code:Louisville
-          and I'm diving headfirst into the world of Front-End development. I
-          love learning new techniques and working together to make awesome web
-          experiences. Let's build something fun!
-        </p>
+        <p
+          data-aos="fade-left"
+          className="text-[1.1rem] lg:text-[1.5rem] leading-10"
+        ></p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">

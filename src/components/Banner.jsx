@@ -15,9 +15,12 @@ export const Banner = () => {
           Welcome To{" "}
           <span className="text-orange-500 uppercase">My Resume</span>
         </h1>
-        <p data-aos="fade-left" className="text-[1.1rem] leading-7">
+        <p
+          data-aos="fade-left"
+          className="text-[1.1rem] leading-10 lg:text-[1.5rem]"
+        >
           Hey there! I'm Shane, and I'm all about crafting cool stuff with
-          React. Recent obtained Front-End Certifications for Code:Louisville
+          React. I recent obtained Front-End Certifications from Code:Louisville
           and I'm diving headfirst into the world of Front-End development. I
           love learning new techniques and working together to make awesome web
           experiences. Let's build something fun!
