@@ -27,7 +27,10 @@ export const About = () => {
         <p
           data-aos="fade-left"
           className="text-[1.1rem] lg:text-[1.5rem] leading-10"
-        ></p>
+        >
+          Past the Tech side of life, I enjoy Coaching Youth Football, Spending
+          time with Family, and collecting cards with my sons Will and Leo!
+        </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
