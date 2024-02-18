@@ -7,6 +7,7 @@ import Nav from "./components/Nav";
 import { Banner } from "./components/Banner";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
+import { Projects } from "./components/Projects";
 
 const App = () => {
   useEffect(() => {
@@ -23,6 +24,7 @@ const App = () => {
       <Banner />
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 };
