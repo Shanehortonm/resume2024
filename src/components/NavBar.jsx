@@ -3,7 +3,7 @@ import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
 
-const Nav = () => {
+export const NavBar = () => {
   const [click, setClick] = useState(false);
 
   const handleClick = () => {
@@ -24,9 +24,9 @@ const Nav = () => {
               About
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Services">
+          <Link spy={true} smooth={true} to="Skills">
             <li className="my-4 py-4 border-b main-bg hover:bg-orange-500 hover:rounded">
-              Services
+              Skills
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Projects">
@@ -91,5 +91,3 @@ const Nav = () => {
     </nav>
   );
 };
-
-export default Nav;

@@ -28,8 +28,17 @@ export const About = () => {
           data-aos="fade-left"
           className="text-[1.1rem] lg:text-[1.5rem] leading-10"
         >
-          Past the Tech side of life, I enjoy Coaching Youth Football, Spending
-          time with Family, and collecting cards with my sons Will and Leo!
+          Prior to Covid I was a General Manager operating a Phase One Training
+          Store! With the safety of my family in mind, I decided to switch
+          careers, using my Class A CDL to secure a job in the trucking
+          industry, and provide stability as I learn and hone my skills as a
+          developer.
+          <br />
+          <span className="text-orange-500 uppercase text-[1.5rem]">
+            Past
+          </span>{" "}
+          my work life, I enjoying Coach Youth Football and spending time with
+          my two sons.
         </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">

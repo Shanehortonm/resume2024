@@ -3,28 +3,30 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 //Components
-import Nav from "./components/Nav";
+import { NavBar } from "./components/NavBar";
 import { Banner } from "./components/Banner";
 import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
+import { Contact } from "./components/Contact";
 
 const App = () => {
   useEffect(() => {
     AOS.init({
       easing: "ease-out-quart",
-      delay: 1000,
+      delay: 500,
       duration: 3000,
     });
   }, []);
 
   return (
     <div className="main-bg overflow-hidden">
-      <Nav />
+      <NavBar />
       <Banner />
       <About />
       <Skills />
       <Projects />
+      <Contact />
     </div>
   );
 };
