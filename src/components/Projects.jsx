@@ -14,40 +14,36 @@ export const Projects = () => {
     >
       <h1
         data-aos="fade-down"
-        className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-orange-500"
+        className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-cyan-500"
       >
         Projects
       </h1>
       <div className="text-white grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
         <img
-          height={350}
-          width={250}
+          width={300}
           data-aos="fade-down"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-orange-500 b_glow"
+          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={Encurage}
           alt=""
         />
         <img
-          height={350}
-          width={250}
+          width={300}
           data-aos="fade-right"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-orange-500 b_glow"
+          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={Ale}
           alt=""
         />
         <img
-          height={350}
-          width={250}
+          width={300}
           data-aos="fade-up"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-orange-500 b_glow"
+          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={LS}
           alt=""
         />
         <img
-          height={350}
-          width={250}
+          width={300}
           data-aos="fade-left"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-orange-500 b_glow"
+          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={ES}
           alt=""
         />

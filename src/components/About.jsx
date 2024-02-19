@@ -5,14 +5,14 @@ export const About = () => {
   return (
     <div
       id="About"
-      className=" m-auto max-w-[1600px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
+      className="h-full m-auto mt-20 max-w-[1600px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
     >
       <img
         data-aos="fade-down"
         src={Banner2}
         width={300}
         height={300}
-        className="border-2 p-1 border-orange-500 img_glow"
+        className="border-2 p-1 border-cyan-500  img_glow"
         alt="half closed laptop
         
         "
@@ -20,7 +20,7 @@ export const About = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
           data-aos="fade-right"
-          className="text-[2.8rem] font-semibold mb-8 leading-normal text-orange-500 uppercase"
+          className="text-[2.8rem] font-semibold mb-8 leading-normal text-cyan-500  uppercase"
         >
           About me
         </h1>
@@ -34,7 +34,7 @@ export const About = () => {
           industry, and provide stability as I learn and hone my skills as a
           developer.
           <br />
-          <span className="text-orange-500 uppercase text-[1.5rem]">
+          <span className="text-cyan-500  uppercase text-[1.5rem]">
             Past
           </span>{" "}
           my work life, I enjoying Coach Youth Football and spending time with
@@ -45,7 +45,7 @@ export const About = () => {
             <div className="flex space-x-2">
               <button
                 data-aos="flip-up"
-                className="bg-orange-800 shadow-xl hover:shadow-orange-500/50 text-white border-2 hover:bg-orange-500 border-orange-500 rounded-lg py-4 px-8 uppercase relative overflow-hidden font"
+                className="bg-cyan-800 shadow-xl hover:shadow-cyan-500 /50 text-white border-2 hover:bg-cyan-500  border-cyan-500  rounded-lg py-4 px-8 uppercase relative overflow-hidden font"
               >
                 Resume
               </button>

@@ -15,8 +15,7 @@ export const Banner = () => {
           data-aos="fade-down"
           className="text-[4rem] font-semibold mb-8 leading-normal uppercase"
         >
-          Welcome To{" "}
-          <span className="text-orange-500 uppercase">My Resume</span>
+          Welcome To <span className="text-cyan-500 uppercase">My Resume</span>
         </h1>
         <p
           data-aos="fade-left"
@@ -34,7 +33,7 @@ export const Banner = () => {
               <a
                 data-aos="fade-up"
                 href="https://github.com/Shanehortonm"
-                className="text-orange-500 hover:text-orange-600 rounded-full glow p-2"
+                className="text-cyan-500 hover:text-cyan-600 rounded-full glow p-2"
                 target="_blank"
               >
                 <FaGithub className="text-[28px]" />
@@ -42,7 +41,7 @@ export const Banner = () => {
               <a
                 data-aos="fade-up"
                 href="https://www.linkedin.com/in/shanemhorton/"
-                className="text-orange-500 hover:text-orange-600 rounded-full glow p-2"
+                className="text-cyan-500 hover:text-cyan-600 rounded-full glow p-2"
                 target="_blank"
               >
                 <FaLinkedin className="text-[28px]" />

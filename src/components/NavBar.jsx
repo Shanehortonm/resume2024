@@ -15,27 +15,27 @@ export const NavBar = () => {
       <div className=" cursor-pointer lg:hidden block absolute top-16 w-full left-0 right-0 main-bg transition-all ">
         <ul className=" m-auto text-center text-[1.4rem] gap-5 p-20 max-w-[400px] flex flex-col justify-center ">
           <Link spy={true} smooth={true} to="Home">
-            <li className="my-4 py-4 border-b main-bg hover:bg-orange-500 hover:rounded">
+            <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500 hover:rounded">
               Home
             </li>
           </Link>
           <Link spy={true} smooth={true} to="About">
-            <li className="my-4 py-4 border-b main-bg hover:bg-orange-500  hover:rounded">
+            <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500  hover:rounded">
               About
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Skills">
-            <li className="my-4 py-4 border-b main-bg hover:bg-orange-500 hover:rounded">
+            <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500 hover:rounded">
               Skills
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Projects">
-            <li className="my-4 py-4 border-b main-bg hover:bg-orange-500  hover:rounded">
+            <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500  hover:rounded">
               Projects
             </li>
           </Link>
           <Link spy={true} smooth={true} to="Contact">
-            <li className="my-4 py-4 border-b main-bg hover:bg-orange-500  hover:rounded">
+            <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500  hover:rounded">
               Contact
             </li>
           </Link>
@@ -56,27 +56,27 @@ export const NavBar = () => {
           <div className="flex-10">
             <ul className="flex gap-8 mr-16 text-[1.2rem] lg:text-[1.4rem]">
               <Link spy={true} smooth={true} to="Home">
-                <li className="hover:text-orange-500 transition border-b-2 border-orange-800 hover:border-orange-500 cursor-pointer">
+                <li className="hover:text-cyan-500 transition border-b-2 border-cyan-800 hover:border-cyan-500 cursor-pointer">
                   Home
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="About">
-                <li className="hover:text-orange-500 transition border-b-2 border-orange-800 hover:border-orange-500 cursor-pointer">
+                <li className="hover:text-cyan-500 transition border-b-2 border-cyan-800 hover:border-cyan-500 cursor-pointer">
                   About
                 </li>
               </Link>
-              <Link spy={true} smooth={true} to="Services">
-                <li className="hover:text-orange-500 transition border-b-2 border-orange-800 hover:border-orange-500 cursor-pointer">
+              <Link spy={true} smooth={true} to="Skills">
+                <li className="hover:text-cyan-500 transition border-b-2 border-cyan-800 hover:border-cyan-500 cursor-pointer">
                   Skills
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Projects">
-                <li className="hover:text-orange-500 transition border-b-2 border-orange-800 hover:border-orange-500 cursor-pointer">
+                <li className="hover:text-cyan-500 transition border-b-2 border-cyan-800 hover:border-cyan-500 cursor-pointer">
                   Projects
                 </li>
               </Link>
               <Link spy={true} smooth={true} to="Contact">
-                <li className="hover:text-orange-500 transition border-b-2 border-orange-800 hover:border-orange-500 cursor-pointer">
+                <li className="hover:text-cyan-500 transition border-b-2 border-cyan-800 hover:border-cyan-500 cursor-pointer">
                   Contact
                 </li>
               </Link>
