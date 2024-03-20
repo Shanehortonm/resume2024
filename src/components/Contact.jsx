@@ -9,7 +9,11 @@ export const Contact = () => {
       >
         Connect with Me
       </h1>
-      <form action="" className="flex flex-col gap-2 lg:w-1/2">
+      <form
+        data-aos="fade-in"
+        action=""
+        className="flex flex-col gap-2 lg:w-1/2"
+      >
         <div className="lg:flex gap-6">
           <input
             className="w-full my-3 rounded-lg bg-black p-4 border-2 border-cyan-500 b_glow text-white"
