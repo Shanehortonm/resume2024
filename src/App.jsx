@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Headroom from "react-headroom";
 
 //Components
 import { NavBar } from "./components/NavBar";
@@ -9,6 +10,7 @@ import { About } from "./components/About";
 import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
+import { Footer } from "./components/Footer";
 
 const App = () => {
   useEffect(() => {
@@ -21,12 +23,15 @@ const App = () => {
 
   return (
     <div className="main-bg overflow-hidden">
-      <NavBar />
+      <Headroom>
+        <NavBar />
+      </Headroom>
       <Banner />
       <About />
       <Skills />
       <Projects />
       <Contact />
+      <Footer />
     </div>
   );
 };

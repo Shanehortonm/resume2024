@@ -10,31 +10,35 @@ export const NavBar = () => {
     setClick(!click);
   };
 
+  const closeDropdown = () => {
+    setClick(false);
+  };
+
   const content = (
     <>
       <div className=" cursor-pointer lg:hidden block absolute top-16 w-full left-0 right-0 main-bg transition-all ">
         <ul className=" m-auto text-center text-[1.4rem] gap-5 p-20 max-w-[400px] flex flex-col justify-center ">
-          <Link spy={true} smooth={true} to="Home">
+          <Link spy={true} smooth={true} to="Home" onClick={closeDropdown}>
             <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500 hover:rounded">
               Home
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="About">
+          <Link spy={true} smooth={true} to="About" onClick={closeDropdown}>
             <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500  hover:rounded">
               About
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Skills">
+          <Link spy={true} smooth={true} to="Skills" onClick={closeDropdown}>
             <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500 hover:rounded">
               Skills
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Projects">
+          <Link spy={true} smooth={true} to="Projects" onClick={closeDropdown}>
             <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500  hover:rounded">
               Projects
             </li>
           </Link>
-          <Link spy={true} smooth={true} to="Contact">
+          <Link spy={true} smooth={true} to="Contact" onClick={closeDropdown}>
             <li className="my-4 py-4 border-b main-bg hover:bg-cyan-500  hover:rounded">
               Contact
             </li>
