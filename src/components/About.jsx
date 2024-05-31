@@ -20,9 +20,9 @@ export const About = () => {
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
           data-aos="fade-right"
-          className="text-[2.8rem] font-semibold mb-8 leading-normal text-cyan-500  uppercase"
+          className="text-[2.8rem] font-semibold mb-8 leading-normal text-white  uppercase"
         >
-          About me
+          About <span className="text-cyan-500 uppercase">Me</span>
         </h1>
         <p
           data-aos="fade-left"
@@ -34,7 +34,7 @@ export const About = () => {
           industry, and provide stability as I learn and hone my skills as a
           developer.
           <br />
-          <span className="text-cyan-500  uppercase text-[1.5rem]">
+          <span className="text-orange-500  uppercase text-[1.5rem]">
             Past
           </span>{" "}
           my work life, I enjoying Coach Youth Football and spending time with
