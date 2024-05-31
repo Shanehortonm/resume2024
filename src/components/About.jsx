@@ -45,7 +45,7 @@ export const About = () => {
             <div className="flex space-x-2">
               <button
                 data-aos="flip-up"
-                className="bg-cyan-800 shadow-xl hover:shadow-cyan-500 /50 text-white border-2 hover:bg-cyan-500  border-cyan-500  rounded-lg py-4 px-8 uppercase relative overflow-hidden font"
+                className="bg-cyan-800 shadow-lg hover:shadow-cyan-500 /20 text-white border-2 hover:bg-cyan-500  border-cyan-500  rounded-lg py-4 px-8 uppercase relative overflow-hidden font"
               >
                 Resume
               </button>

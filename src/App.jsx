@@ -18,6 +18,7 @@ const App = () => {
       easing: "ease-out-quart",
       delay: 500,
       duration: 3000,
+      once: true,
     });
   }, []);
 

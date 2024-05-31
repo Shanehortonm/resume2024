@@ -2,7 +2,10 @@ import React from "react";
 
 export const Contact = () => {
   return (
-    <div className="p-4 lg:p-20 flex flex-col items-center justify-center">
+    <div
+      id="Contact"
+      className="p-4 lg:p-20 flex flex-col items-center justify-center"
+    >
       <h1
         data-aos="fade-down"
         className="text-[2.8rem] font-semibold mb-8 leading-normal text-cyan-500 uppercase"

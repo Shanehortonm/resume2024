@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-scroll";
 import { FaTimes } from "react-icons/fa";
 import { CiMenuFries } from "react-icons/ci";
+import { BannerHello } from "./animations/BannerHello";
 
 export const NavBar = () => {
   const [click, setClick] = useState(false);
@@ -53,7 +54,7 @@ export const NavBar = () => {
       <div className="h-0vh flex justify-between z-50 text-white lg:py-5 px-5 py-4 flex-1">
         <div className="flex items-center flex-1">
           <span className="text-[2.2rem] font-bold lg:text-[2.4rem] ">
-            Welcome
+            <BannerHello />
           </span>
         </div>
         <div className="lg:flex md:flex lg: flex-1 items center justify-end font-normal hidden">

@@ -15,17 +15,21 @@ export const Banner = () => {
           data-aos="fade-down"
           className="text-[4rem] font-semibold mb-8 leading-normal uppercase"
         >
-          Welcome To <span className="text-cyan-500 uppercase">My Resume</span>
+          Shane <span className="text-cyan-500 uppercase">Horton</span>
         </h1>
+        <h3
+          data-aos="fade-down"
+          className="text-[2.5rem] font-semibold mb-8 leading-normal uppercase"
+        >
+          <span className="text-orange-500 uppercase">React </span>
+          Developer
+        </h3>
         <p
           data-aos="fade-left"
           className="text-[1.1rem] leading-10 lg:text-[1.5rem]"
         >
-          Hey there! I'm Shane, and I'm all about crafting cool stuff with
-          React. I recent obtained Front-End Certifications from Code:Louisville
-          and I'm diving headfirst into the world of Front-End development. I
-          love learning new techniques and working together to make awesome web
-          experiences. Let's build something fun!
+          Front End Developer who focuses on writing clean, elegant and
+          efficient code
         </p>
         <div className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
