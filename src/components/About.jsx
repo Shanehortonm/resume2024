@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div
       id="About"
-      className="h-[100svh] m-auto mt-20 max-w-[1600px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center bg-slate-800"
+      className="h-[100svh] m-auto mt-20  lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center bg-slate-800"
     >
       <img
         data-aos="fade-down"
