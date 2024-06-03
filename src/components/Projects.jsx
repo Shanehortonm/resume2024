@@ -10,7 +10,7 @@ export const Projects = () => {
   return (
     <div
       id="Projects"
-      className="p-20 flex flex-col items-center justify-center"
+      className="h-[100svh] p-20 flex flex-col items-center justify-center bg-slate-800"
     >
       <h1
         data-aos="fade-down"

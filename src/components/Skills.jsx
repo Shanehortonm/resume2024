@@ -3,7 +3,10 @@ import { DiHtml5, DiCss3, DiJavascript, DiReact } from "react-icons/di";
 
 export const Skills = () => {
   return (
-    <div id="Skills" className="p-20 flex flex-col items-center justify-center">
+    <div
+      id="Skills"
+      className="h-[100svh] p-20 flex flex-col items-center justify-center"
+    >
       <h1
         data-aos="fade-down"
         className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-cyan-500 "
