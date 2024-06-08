@@ -13,7 +13,7 @@ export const Projects = () => {
       className="h-full p-20 flex flex-col items-center justify-center bg-slate-800"
     >
       <h1
-        data-aos="fade-down"
+        data-aos="zoom-in"
         className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-cyan-500"
       >
         Projects
@@ -21,28 +21,28 @@ export const Projects = () => {
       <div className="text-white grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
         <img
           width={300}
-          data-aos="fade-down"
+          data-aos="fade-in"
           className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={Encurage}
           alt=""
         />
         <img
           width={300}
-          data-aos="fade-right"
+          data-aos="fade-in"
           className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={Ale}
           alt=""
         />
         <img
           width={300}
-          data-aos="fade-up"
+          data-aos="fade-in"
           className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={LS}
           alt=""
         />
         <img
           width={300}
-          data-aos="fade-left"
+          data-aos="fade-in"
           className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
           src={ES}
           alt=""

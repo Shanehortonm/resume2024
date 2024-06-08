@@ -7,7 +7,7 @@ export const Contact = () => {
       className="h-full p-4 lg:p-20 flex flex-col items-center justify-center"
     >
       <h1
-        data-aos="fade-down"
+        data-aos="fade-in"
         className="text-[2.8rem] font-semibold mb-8 leading-normal text-cyan-500 uppercase"
       >
         Connect with Me
