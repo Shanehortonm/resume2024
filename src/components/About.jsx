@@ -5,7 +5,7 @@ export const About = () => {
   return (
     <div
       id="About"
-      className="h-[100svh] m-auto mt-20  lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center bg-slate-800"
+      className="h-full m-auto mt-20  lg:px-56 px-10 lg:py-0 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center bg-slate-800"
     >
       <img
         data-aos="fade-down"
@@ -17,7 +17,7 @@ export const About = () => {
         
         "
       />
-      <div className="h-[100svh] lg:py-40 flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
+      <div className="h-full  lg:py-40 min-h-[100svh] flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
           data-aos="fade-right"
           className="text-[2.8rem] font-semibold mb-8 leading-normal text-white  uppercase"
@@ -34,10 +34,11 @@ export const About = () => {
           industry, and provide stability as I learn and hone my skills as a
           developer.
           <br />
+          <br />
           <span className="text-orange-500  uppercase text-[1.5rem]">
             Past
           </span>{" "}
-          my work life, I enjoying Coach Youth Football and spending time with
+          my work life, I enjoy Coaching Youth Football and spending time with
           my two sons.
         </p>
         <div className="flex mt-8 gap-2">

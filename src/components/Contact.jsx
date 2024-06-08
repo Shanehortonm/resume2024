@@ -4,7 +4,7 @@ export const Contact = () => {
   return (
     <div
       id="Contact"
-      className="h-[95svh] p-4 lg:p-20 flex flex-col items-center justify-center"
+      className="h-full p-4 lg:p-20 flex flex-col items-center justify-center"
     >
       <h1
         data-aos="fade-down"

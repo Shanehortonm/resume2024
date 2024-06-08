@@ -8,7 +8,7 @@ export const Banner = () => {
   return (
     <div
       id="Home"
-      className="h-[100svh] m-auto max-w-[1800px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
+      className="h-full m-auto max-w-[1800px] lg:px-56 px-10 lg:py-0 py-20 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center"
     >
       <div className="h-full lg:py-40 flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
@@ -57,8 +57,8 @@ export const Banner = () => {
       <img
         data-aos="fade-up"
         src={BannerImg}
-        width={300}
-        height={300}
+        width={280}
+        height={280}
         alt="half closed laptop
         "
       />
