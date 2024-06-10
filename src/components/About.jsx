@@ -7,17 +7,7 @@ export const About = () => {
       id="About"
       className="h-full m-auto mt-20  lg:px-56 px-10 lg:py-0 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center bg-slate-800"
     >
-      <img
-        data-aos="fade-in"
-        src={Banner2}
-        width={300}
-        height={300}
-        className="border-2 p-1 border-cyan-500  img_glow"
-        alt="half closed laptop
-        
-        "
-      />
-      <div className="h-full  lg:py-40  flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
+      <div className="h-[100svh]  lg:py-40  flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
           data-aos="fade-right"
           className="text-[2.8rem] font-semibold mb-8 leading-normal text-white  uppercase"
