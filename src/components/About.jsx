@@ -9,13 +9,13 @@ export const About = () => {
     >
       <div className="h-[100svh]  lg:py-40  flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
-          data-aos="fade-right"
+          data-aos="fade-in"
           className="text-[2.8rem] font-semibold mb-8 leading-normal text-white  uppercase"
         >
           About <span className="text-cyan-500 uppercase">Me</span>
         </h1>
         <p
-          data-aos="fade-left"
+          data-aos="fade-in"
           className="text-[1.1rem] lg:text-[1.5rem] leading-10"
         >
           Prior to Covid I was a General Manager operating a Phase One Training
@@ -31,7 +31,7 @@ export const About = () => {
           my work life, I enjoy Coaching Youth Football and spending time with
           my two sons.
         </p>
-        <div className="flex mt-8 gap-2">
+        <div data-aos="fade-in" className="flex mt-8 gap-2">
           <div className="flex items-center justify-center">
             <div className="flex space-x-2">
               <button

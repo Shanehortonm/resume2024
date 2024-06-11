@@ -1,5 +1,6 @@
 import React from "react";
-import { DiHtml5, DiCss3, DiJavascript, DiReact } from "react-icons/di";
+
+// IMPORT ICONS
 
 export const Skills = () => {
   return (
@@ -7,103 +8,56 @@ export const Skills = () => {
       id="Skills"
       className="h-full p-20 flex flex-col items-center justify-center"
     >
-      <div class="content">
-        <div class="profile-skills">
-          <div>
-            <input type="checkbox" id="sk1" />
-            <label for="sk1"></label>
-            <ul class="skills skills1">
-              <li class="sk-cms">
-                <span>CMS</span>
-              </li>
+      <h1
+        data-aos="zoom-in"
+        className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-orange-500 "
+      >
+        Skills
+      </h1>
+      <div class="gradient-cards">
+        <div class="card">
+          <div class="container-card bg-green-box">
+            <p class="card-title">Front-End</p>
+            <ul class="card-description">
+              <li>Proficient in HTML, CSS, and JavaScript</li>
+              <li>Experience with React.js framework</li>
+              <li>Knowledge of responsive design principles</li>
+            </ul>
+          </div>
+        </div>
 
-              <li class="sk-dis">
-                <span>Design</span>
-              </li>
-              <li class="sk-pro">
-                <span>Programing</span>
-              </li>
-              <li class="sk-ani">
-                <span>Animation</span>
-              </li>
-              <li class="more">
-                <input type="checkbox" id="more-con" />
-                <label for="more-con"></label>
-                <div>
-                  <span>PHOTO</span>
-                  <span>API</span>
-                  <span>MAPS</span>
-                  <span>VIDEO</span>
-                  <span>CHARTS</span>
-                  <span>RWD</span>
-                </div>
-              </li>
+        <div class="card">
+          <div class="container-card bg-white-box">
+            <p class="card-title">Back-End</p>
+            <ul class="card-description">
+              <li>Proficient working with Node.js</li>
+              <li>Experience with Express.js</li>
+              <li>Experience using Python</li>
             </ul>
           </div>
-          <div>
-            <input type="checkbox" id="sk2" />
-            <label for="sk2"></label>
-            <ul class="skills skills2">
-              <li class="sk-gim">
-                <span>Gimp</span>
+        </div>
+
+        <div class="card">
+          <div class="container-card bg-yellow-box">
+            <p class="card-title">UI/UX Design</p>
+            <ul class="card-description">
+              <li>Skilled in using wireframing tools (Figma) </li>
+              <li>
+                Ability to create visually appealing and functional interfaces
               </li>
-              <li class="sk-ado">
-                <span>Adobe&nbsp;CC</span>
-              </li>
-              <li class="sk-not">
-                <span>Notepad++</span>
-              </li>
-              <li class="sk-tri">
-                <span>Tridion</span>
-              </li>
-              <li class="sk-wor">
-                <span>Wordpress</span>
-              </li>
-              <li class="more">
-                <input type="checkbox" id="more-pro" />
-                <label for="more-pro"></label>
-                <div>
-                  <span>JOOMLA</span>
-                  <span>DRUPAL</span>
-                  <span>JIRA</span>
-                  <span>TRELLO</span>
-                  <span>FILEZILLA</span>
-                  <span>GIT</span>
-                </div>
-              </li>
+              <li>Knowledge of responsive design principles</li>
             </ul>
           </div>
-          <div>
-            <input type="checkbox" id="sk3" />
-            <label for="sk3"></label>
-            <ul class="skills skills3">
-              <li class="sk-css">
-                <span>CSS</span>
-              </li>
-              <li class="sk-htm">
-                <span>HTML</span>
-              </li>
-              <li class="sk-jav">
-                <span>JS</span>
-              </li>
-              <li class="sk-php">
-                <span>PHP</span>
-              </li>
-              <li class="sk-sql">
-                <span>SQL</span>
-              </li>
-              <li class="more">
-                <input type="checkbox" id="more-len" />
-                <label for="more-len"></label>
-                <div>
-                  <span>XHTML</span>
-                  <span>XSL</span>
-                  <span>XML</span>
-                  <span>JSON</span>
-                  <span>PUG</span>
-                  <span>SASS</span>
-                </div>
-              </li>
+        </div>
+
+        <div class="card">
+          <div class="container-card bg-blue-box">
+            <p class="card-title">Soft Skills</p>
+            <ul class="card-description">
+              <li>Effective verbal and written communication</li>
+              <li>Strong problem-solving abilities</li>
+              <li>Team collaboration and interpersonal skills</li>
+              <li>Time management and organizational skills</li>
             </ul>
           </div>
         </div>
