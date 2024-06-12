@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Headroom from "react-headroom";
+import { register } from "swiper/element/bundle";
 
 //Components
 import { NavBar } from "./components/NavBar";
@@ -13,6 +14,7 @@ import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
 
 const App = () => {
+  register();
   useEffect(() => {
     AOS.init({
       easing: "ease-out-quart",

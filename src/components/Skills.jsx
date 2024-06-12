@@ -9,13 +9,13 @@ export const Skills = () => {
       className="h-full p-20 flex flex-col items-center justify-center"
     >
       <h1
-        data-aos="zoom-in"
+        data-aos="fade-in"
         className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-orange-500 "
       >
         Skills
       </h1>
       <div class="gradient-cards">
-        <div class="card">
+        <div data-aos="fade-zoom-in" data-aos-delay="150" class="card">
           <div class="container-card bg-green-box">
             <p class="card-title">Front-End</p>
             <ul class="card-description">
@@ -26,7 +26,7 @@ export const Skills = () => {
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-zoom-in" data-aos-delay="200" class="card">
           <div class="container-card bg-white-box">
             <p class="card-title">Back-End</p>
             <ul class="card-description">
@@ -37,7 +37,7 @@ export const Skills = () => {
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-zoom-in" data-aos-delay="250" class="card">
           <div class="container-card bg-yellow-box">
             <p class="card-title">UI/UX Design</p>
             <ul class="card-description">
@@ -45,12 +45,12 @@ export const Skills = () => {
               <li>
                 Ability to create visually appealing and functional interfaces
               </li>
-              <li>Knowledge of responsive design principles</li>
+              <li>Strong grasp of accessibility standards and practices</li>
             </ul>
           </div>
         </div>
 
-        <div class="card">
+        <div data-aos="fade-zoom-in" data-aos-delay="300" class="card">
           <div class="container-card bg-blue-box">
             <p class="card-title">Soft Skills</p>
             <ul class="card-description">

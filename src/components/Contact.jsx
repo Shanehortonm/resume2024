@@ -8,7 +8,7 @@ export const Contact = () => {
     >
       <h1
         data-aos="fade-in"
-        className="text-[2.8rem] font-semibold mb-8 leading-normal text-cyan-500 uppercase"
+        className="text-[2.8rem] font-semibold mb-8 leading-normal text-cyan-500 uppercase text-center"
       >
         Connect with Me
       </h1>

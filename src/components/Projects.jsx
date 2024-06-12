@@ -1,4 +1,14 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import "swiper/css";
+import "swiper/css/effect-cube";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
+
+import "../css/index.css";
+
+import { Autoplay, EffectCube, Pagination } from "swiper/modules";
 
 //imgs
 import Ale from "../imgs/projectimgs/ale.png";
@@ -14,39 +24,66 @@ export const Projects = () => {
     >
       <h1
         data-aos="zoom-in"
-        className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-cyan-500"
+        className="text-[3rem] font-semibold mb-10 leading-normal uppercase text-cyan-500"
       >
         Projects
       </h1>
-      <div className="text-white grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 justify-around gap-20">
-        <img
-          width={300}
-          data-aos="fade-in"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
-          src={Encurage}
-          alt=""
-        />
-        <img
-          width={300}
-          data-aos="fade-in"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
-          src={Ale}
-          alt=""
-        />
-        <img
-          width={300}
-          data-aos="fade-in"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
-          src={LS}
-          alt=""
-        />
-        <img
-          width={300}
-          data-aos="fade-in"
-          className="flex items-center justify-center rounded-3xl p-1 border-2 border-cyan-500 b_glow"
-          src={ES}
-          alt=""
-        />
+      <div data-aos="zoom-in" className="project-slide">
+        <Swiper
+          effect={"cube"}
+          grabCursor={true}
+          cubeEffect={{
+            shadow: true,
+            slideShadows: true,
+            shadowOffset: 0,
+            shadowScale: 0.94,
+          }}
+          autoplay={{
+            delay: 5000,
+            disableOnInteraction: true,
+          }}
+          pagination={true}
+          modules={[EffectCube, Pagination, Autoplay]}
+        >
+          <SwiperSlide>
+            <div className="project-slide-container">
+              <img src={Ale} />
+              <div className="project-slide-info">
+                <h3>ALE Cleaning Services</h3>
+                <p>Business Website for local cleaning company</p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="project-slide-container">
+              <img src={Encurage} />
+              <div className="project-slide-info">
+                <h3>Encurage</h3>
+                <p>Marketing website for Children's Health App</p>
+                <p>Built using React.js, Google Docs, Node.js</p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="project-slide-container">
+              <img src={LS} />
+              <div className="project-slide-info">
+                <h3>Legendary Sports</h3>
+                <p>Final Project for Code:Louisville</p>
+                <p>Built using Javascript, Third Party API's </p>
+              </div>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="project-slide-container">
+              <img src={ES} />
+              <div className="project-slide-info">
+                <h3>Esther Soap Company</h3>
+                <p>Business Website for Local Soap Company</p>
+              </div>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
