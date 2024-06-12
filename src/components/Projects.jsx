@@ -20,7 +20,7 @@ export const Projects = () => {
   return (
     <div
       id="Projects"
-      className="h-[100svh] p-20 flex flex-col items-center justify-center bg-cyan-900 lg:h-[120svh]"
+      className="projects h-[100svh] p-20 flex flex-col items-center justify-center lg:h-[120svh]"
     >
       <h1
         data-aos="zoom-in"

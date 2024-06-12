@@ -55,6 +55,7 @@ export const Banner = () => {
         </div>
       </div>
       <img
+        className="banner-img"
         data-aos="fade-up"
         src={BannerImg}
         width={280}
