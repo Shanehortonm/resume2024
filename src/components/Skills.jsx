@@ -10,7 +10,7 @@ export const Skills = () => {
     >
       <h1
         data-aos="fade-in"
-        className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-orange-500 "
+        className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-white"
       >
         Skills
       </h1>
