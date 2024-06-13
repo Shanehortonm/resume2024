@@ -47,30 +47,59 @@ export const Projects = () => {
         >
           <SwiperSlide>
             <div className="project-slide-container">
-              <img src={Ale} />
+              <img src={Encurage} />
               <div className="project-slide-info">
-                <h3>ALE Cleaning Services</h3>
-                <p>Business Website for local cleaning company</p>
+                <h3>Encurage</h3>
+                <div>
+                  <p>Marketing website for Children's Health App</p>
+                  <p>Built using React.js, Google Docs, Node.js</p>
+                </div>
+                <a
+                  href=""
+                  className="text-cyan-500 hover:text-orange-400 transition-all"
+                  target="_blank"
+                >
+                  Releasing Q4 2024
+                </a>
               </div>
             </div>
           </SwiperSlide>
           <SwiperSlide>
             <div className="project-slide-container">
-              <img src={Encurage} />
+              <img src={Ale} />
               <div className="project-slide-info">
-                <h3>Encurage</h3>
-                <p>Marketing website for Children's Health App</p>
-                <p>Built using React.js, Google Docs, Node.js</p>
+                <h3>ALE Cleaning Services</h3>
+                <div>
+                  <p>Business Website for local cleaning company</p>
+                  <p>Built with JavaScript and Email.js</p>
+                </div>
+                <a
+                  href="https://alecleaningservices.netlify.app/"
+                  className="text-cyan-500 hover:text-orange-400 transition-all"
+                  target="_blank"
+                >
+                  Visit Site
+                </a>
               </div>
             </div>
           </SwiperSlide>
+
           <SwiperSlide>
             <div className="project-slide-container">
               <img src={LS} />
               <div className="project-slide-info">
                 <h3>Legendary Sports</h3>
-                <p>Final Project for Code:Louisville</p>
-                <p>Built using Javascript, Third Party API's </p>
+                <div>
+                  <p>Final Project for Code:Louisville</p>
+                  <p>Built using Javascript, Third Party API's </p>
+                </div>
+                <a
+                  href="https://legendary-sports.netlify.app/"
+                  className="text-cyan-500 hover:text-orange-400 transition-all"
+                  target="_blank"
+                >
+                  Visit Site
+                </a>
               </div>
             </div>
           </SwiperSlide>
@@ -79,7 +108,17 @@ export const Projects = () => {
               <img src={ES} />
               <div className="project-slide-info">
                 <h3>Esther Soap Company</h3>
-                <p>Business Website for Local Soap Company</p>
+                <div>
+                  <p>Business Website for Local Soap Company</p>
+                  <p>Built with Vite and Tailwind</p>
+                </div>
+                <a
+                  href="https://esthersoapcompany.netlify.app/"
+                  className="text-cyan-500 hover:text-orange-400 transition-all"
+                  target="_blank"
+                >
+                  Visit Site
+                </a>
               </div>
             </div>
           </SwiperSlide>
