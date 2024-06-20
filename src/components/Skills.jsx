@@ -4,10 +4,7 @@ import React from "react";
 
 export const Skills = () => {
   return (
-    <div
-      id="Skills"
-      className="h-full p-20 flex flex-col items-center justify-center"
-    >
+    <div id="Skills" className="skills h-full p-20 ">
       <h1
         data-aos="fade-in"
         className="text-[3rem] font-semibold mb-20 leading-normal uppercase text-white"
@@ -62,6 +59,18 @@ export const Skills = () => {
           </div>
         </div>
       </div>
+      <ul class="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
     </div>
   );
 };
