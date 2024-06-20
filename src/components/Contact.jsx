@@ -31,7 +31,7 @@ export const Contact = () => {
         </div>
         <textarea
           className="w-full my-3 rounded-lg bg-black p-4 border-2 border-cyan-500 b_glow text-white"
-          placeholder="What's Up?"
+          placeholder="How can I help?"
           name=""
           id=""
           cols="20"
