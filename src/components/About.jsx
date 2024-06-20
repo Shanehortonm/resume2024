@@ -1,5 +1,4 @@
 import React from "react";
-import Banner2 from "../imgs/2.jpg";
 
 export const About = () => {
   return (
