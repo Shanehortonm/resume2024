@@ -113,11 +113,11 @@ export const Projects = () => {
                   <p>Built with Vite and Tailwind</p>
                 </div>
                 <a
-                  href="https://esthersoapcompany.netlify.app/"
+                  href="/"
                   className="text-cyan-500 hover:text-orange-400 transition-all"
                   target="_blank"
                 >
-                  Visit Site
+                  Under Construction
                 </a>
               </div>
             </div>

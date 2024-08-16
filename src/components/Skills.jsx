@@ -59,18 +59,6 @@ export const Skills = () => {
           </div>
         </div>
       </div>
-      <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
     </div>
   );
 };

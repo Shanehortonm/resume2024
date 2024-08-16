@@ -60,8 +60,7 @@ export const Banner = () => {
         src={BannerImg}
         width={280}
         height={280}
-        alt="half closed laptop
-        "
+        alt="half closed laptop"
       />
     </div>
   );

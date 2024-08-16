@@ -6,6 +6,18 @@ export const About = () => {
       id="About"
       className="about h-full m-auto mt-20  lg:px-56 px-10 lg:py-0 py-10 text-center gap-5 lg:text-start flex lg:flex-row flex-col justify-between lg:gap-28 items-center "
     >
+      <ul className="circles">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
       <div className="h-[100svh]  lg:py-40  flex flex-col justify-center lg:items-start items-center text-white max-w-[950px]">
         <h1
           data-aos="fade-in"
@@ -44,18 +56,6 @@ export const About = () => {
           </div>
         </div>
       </div>
-      <ul class="circles">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
     </div>
   );
 };
