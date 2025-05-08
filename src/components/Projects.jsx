@@ -55,11 +55,11 @@ export const Projects = () => {
                   <p>Built using React.js, Google Docs, Node.js</p>
                 </div>
                 <a
-                  href=""
+                  href="https://www.encurage.app/"
                   className="text-cyan-500 hover:text-orange-400 transition-all"
                   target="_blank"
                 >
-                  Releasing Q4 2024
+                  Visit Site
                 </a>
               </div>
             </div>
